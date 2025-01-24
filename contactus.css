@@ -1,0 +1,78 @@
+.contactus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contactus {
+    width: 50%;
+    background-color: rgba(54, 69, 79, .7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 26px 56px;
+    border-radius: 26px;
+    gap: 12px;
+}
+
+.contactus label {
+    font-size: 20px;
+}
+
+.contactus input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 12px;
+    font-size: 22px;
+    transition: border-bottom ease-out .2s;
+}
+
+.contactus input::placeholder{ 
+    color: #ccc;
+    font-size: medium;
+}
+
+.contactus textarea {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 12px;
+    font-size: 22px;
+    transition: border-bottom ease-out .2s;
+}
+
+.contactus textarea::placeholder {
+    color: #ccc;
+    font-size: medium;
+}
+
+.contactus input:focus, .contactus textarea:focus {
+    border-bottom: #088F8F solid 2px;
+    outline: none;
+}
+
+.submit-btn {
+    background-color: #088F8F;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px 24px;
+    border-radius: 12px;
+}
+
+.submit-btn:hover {
+    opacity: .9;
+}

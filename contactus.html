@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    <navbar class="navbar">
+        <ul class="navbar-container">
+            <li class="navbar-items logo">
+                <img src="compass.png" alt="" class="logo-image">
+                <h1 class="logo-text">Compass</h1>
+            </li>
+            <li class="navbar-items links">
+                <a href="travel_recommendation.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+            </li>
+            <li class="navbar-items search-box">
+                <div class="search-container">
+                    <input type="text" placeholder="Enter a destination or a keyword" id="search" name="search">
+                    <svg 
+                    class="search-logo"
+                    xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#088F8F"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+                    <button class="seach-btn">Search</button>
+                    <button class="clear-btn">Clear</button>
+                </div>
+            </li>
+        </ul>
+    </navbar>
+
+    <main class="main contactus-container">
+        <h1 class="section-headings">Contact Us</h1>
+        <form action="#" class="contactus">
+            <label for="name" class="name">Name</label>
+            <input type="text" name="name" id="name" class="name-input" placeholder="Enter your name">
+            <label for="email" class="email">Email</label>
+            <input type="text" class="email-input" name="email" placeholder="Enter your email">
+            <label for="message" class="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="3" class="message-input" placeholder="Enter a message"></textarea>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

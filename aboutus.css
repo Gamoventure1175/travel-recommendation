@@ -1,0 +1,125 @@
+.search-container {
+    visibility: hidden;
+}
+
+.aboutus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 120vh;
+}
+
+.aboutus {
+    font-size: 22px;
+}
+
+.section-headings {
+    font-size: 4em;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.members-container {
+    display: flex;
+    gap: 16px;
+}
+
+.member {
+    background-color: #088F8F;
+    padding: 26px;
+    border-radius: 18px;
+
+}
+
+.member i {
+    border: 3px solid white;
+    padding: 12px;
+    font-size: 24px;
+    border-radius: 100%;
+}
+
+.member h2 {
+    font-size: 26px;
+    font-family: "Playwrite HR Lijeva", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.member strong {
+    background-color: #36454F;
+    padding: 8px 24px;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.company-info {
+    margin: 56px 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: rgba(54, 69, 79, .8);
+    border-radius: 24px;
+    padding: 48px;
+}
+
+.company-history p {
+    font-size: 22px;
+}
+
+.company-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.locations {
+    display: flex;
+    width: 90%;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.location1-image {
+   background-image: url(building1.jpg);
+   flex: 1;
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+   border-radius: 16px;
+   position: relative;
+   background-color: rgba(54, 69, 79, .8);
+}
+
+.location2-image {
+   background-image: url(building2.jpg);
+   flex: 1;
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+   border-radius: 16px;
+   position: relative;
+   background-color: rgba(54, 69, 79, .8);
+}
+
+.locations-name { 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
